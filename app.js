@@ -7,6 +7,8 @@ $(document).ready(function () {
             // $("#ting").trigger('stop');
             $('.page2').show('fade');
             $('#video').trigger('play');
+            $('#video').trigger('muted');
+
             setText()
         }, 1500);
     });
