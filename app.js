@@ -4,12 +4,12 @@ $(document).ready(function () {
         $(".gift").hide('fade', 1200);
         $(".page1").hide('fade', 1500);
         setTimeout(() => {
-            $('.page2').show('fade', 300);
+            $('.page2').show('fade');
             $('#video').trigger('play');
             $('#audio').trigger('play');
 
             setText()
-        }, 1200);
+        }, 1500);
     });
 });
 

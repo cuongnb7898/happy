@@ -56,7 +56,10 @@ body {
   align-items: center;
   position: relative;
 }
-
+.video-background {
+  object-fit: inherit;
+  height: 100%;
+}
 .chu {
   width: 99%;
   text-align: center;
