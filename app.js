@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#canvas").click(function () {
-        $("#ting").trigger('play');
+        // $("#ting").trigger('play');
         $(".gift").hide('fade', 1200);
         $(".page1").hide('fade', 1500);
         setTimeout(() => {
