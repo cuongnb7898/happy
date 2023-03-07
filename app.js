@@ -1,10 +1,10 @@
 $(document).ready(function () {
     $("#canvas").click(function () {
-        // $("#ting").trigger('play');
+        $("#ting").trigger('play');
         $(".gift").hide('fade', 1200);
         $(".page1").hide('fade', 1500);
         setTimeout(() => {
-            // $("#ting").trigger('stop');
+            $("#ting").trigger('stop');
             $('.page2').show('fade');
             $('#video').trigger('play');
             $('#video').trigger('muted');
@@ -19,8 +19,11 @@ $(document).ready(function () {
 
 
 function setText() {
-    $('#audio').trigger('play');
     $('#audio')[0].muted = false;
+    $("#ting")[0].muted = true;
+    $('#video')[0].muted = true;
+    $('#audio').trigger('play');
+
     let time = 3000;
     $('#box-text').empty();
     const textVN = `Vào ngày Quốc tế phụ nữ chúc mọi thứ tốt đẹp nhất sẽ đến với bạn Chúc bạn một 8/3 hạnh phúc!`;
