@@ -4,7 +4,6 @@ $(document).ready(function () {
         $(".gift").hide('fade', 1200);
         $(".page1").hide('fade', 1500);
         setTimeout(() => {
-            $("#ting").trigger('stop');
             $('.page2').show('fade');
             $('#video').trigger('play');
             $('#video').trigger('muted');
@@ -19,9 +18,6 @@ $(document).ready(function () {
 
 
 function setText() {
-    $('#audio')[0].muted = false;
-    $("#ting")[0].muted = true;
-    $('#video')[0].muted = true;
     $('#audio').trigger('play');
 
     let time = 3000;
