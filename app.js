@@ -15,7 +15,7 @@ $(document).ready(function () {
 function setText() {
     $('#audio').trigger('play');
     let time = 3000;
-
+    $('#box-text').empty();
     const textVN = `Vào ngày Quốc tế phụ nữ chúc mọi thứ tốt đẹp nhất sẽ đến với bạn Chúc bạn một 8/3 hạnh phúc!`;
     const textEN = `♥ On women’s day what can I wish for, but the very best for you! Happy Women’s Day!`;
 
