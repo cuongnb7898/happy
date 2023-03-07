@@ -7,7 +7,7 @@ body {
 
 .container {}
 .page1 {
-  height: 100vh;
+  height: 90vh;
   position: relative;
 }
 .gift {
@@ -43,13 +43,6 @@ body {
   font-size: 12px;
   text-align: justify;
 }
-
-.page2 {
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-}
-
 
 
 
