@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 
 function setText() {
-    $('#audio')[0].play();
+    $('#audio').trigger('play');
     let time = 3000;
 
     const textVN = `Vào ngày Quốc tế phụ nữ chúc mọi thứ tốt đẹp nhất sẽ đến với bạn Chúc bạn một 8/3 hạnh phúc!`;
