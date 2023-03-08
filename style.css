@@ -72,9 +72,8 @@ body {
 }
 
 h1 {
-  font-family: "Great Vibes", cursive; 
+  font-family: 'Bungee Spice', cursive;
   transform: scale(0.94);
-font-weight: bold;
   animation: scale 7s forwards cubic-bezier(0.5, 1, 0.89, 1);
   z-index: 1000;
   color: #fff;
