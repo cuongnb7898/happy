@@ -55,6 +55,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+padding-bottom: 300px;
 }
 .video-background {
   object-fit: inherit;
