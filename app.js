@@ -1,8 +1,13 @@
 $(document).ready(function () {
     $("#canvas").click(function () {
         window.addEventListener('click', () => {
+            document.getElementById('video').muted = false
+            document.getElementById('video').play();
+
             document.getElementById('audio').muted = false
-            document.getElementById('audio').play()
+            document.getElementById('audio').play();
+
+
         })
 
         $("#ting").trigger('play');
@@ -10,11 +15,11 @@ $(document).ready(function () {
         $(".page1").hide('fade', 1500);
         setTimeout(() => {
             $('.page2').show();
-            $('#video').trigger('play');
-            $('#video').trigger('muted');
+            // $('#video').trigger('play');
+            // $('#video').trigger('muted');
 
             setText()
-        }, 2300);
+        }, 2000);
     });
 
 
