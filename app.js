@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#canvas").click(function () {
         window.addEventListener('click', () => {
-            document.getElementById('video').muted = false
+            document.getElementById('video').muted = true
             document.getElementById('video').play();
 
             document.getElementById('audio').muted = false
