@@ -64,7 +64,6 @@ body {
   position: absolute;
 }
 .chu {
-  background-color: red;
   z-index: 100000;
   width: 99%;
   text-align: center;
