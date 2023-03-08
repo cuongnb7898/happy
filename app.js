@@ -1,4 +1,9 @@
 $(document).ready(function () {
+    window.addEventListener('click', () => {
+        document.getElementById('audio').muted = false
+        document.getElementById('audio').play()
+      })
+
     $("#canvas").click(function () {
         $("#ting").trigger('play');
         $(".gift").hide('fade', 1200);
@@ -20,6 +25,7 @@ $(document).ready(function () {
 function setText() {
     $('#audio').trigger('play');
 
+    
     let time = 3000;
     $('#box-text').empty();
     const textVN = `Vào ngày Quốc tế phụ nữ chúc mọi thứ tốt đẹp nhất sẽ đến với bạn Chúc bạn một 8/3 hạnh phúc!`;
