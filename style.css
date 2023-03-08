@@ -72,7 +72,7 @@ body {
 }
 
 h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Great Vibes", cursive; 
   transform: scale(0.94);
   animation: scale 7s forwards cubic-bezier(0.5, 1, 0.89, 1);
   z-index: 1000;
