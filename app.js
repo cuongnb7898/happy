@@ -69,7 +69,7 @@ function setText() {
                 $(".gift").show('fade', 1200);
                 $(".page1").show('fade', 1500);
                 $('.page2').hide('fade', 300);
-                $('#audio').trigger('stop');
+                document.getElementById('audio').stop();
             }, 30000);
 
         }, time);
