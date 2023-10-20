@@ -31,9 +31,9 @@ function setText() {
     $('#audio').trigger('play');
     let time = 2100;
     $('#box-text').empty();
-    const textVN = `Vào ngày Quốc tế phụ nữ chúc mọi thứ tốt đẹp nhất sẽ đến với bạn Chúc bạn một ngày 8/3 hạnh phúc!`;
-    const textEN = `♥ On women’s day what can I wish for, but the very best for you! Happy Women’s Day!`;
-    const strEnd = 'Vett'
+    const textVN = `Anh sẽ không chúc em điều gì cả vì em xứng đáng được hưởng tất cả những điều tốt đẹp nhất trên đời này!`;
+    const textEN = `Ngày 20/10 trọn niềm vui nhé! ♥ On women’s day!`;
+    const strEnd = 'NBC'
     const arrStr = textVN.split(' ');
     const arrStr2 = textEN.split(' ');
     const arrStr3 = strEnd.split(' ');
